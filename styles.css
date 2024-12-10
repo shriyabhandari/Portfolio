@@ -461,7 +461,7 @@ header{
         flex-direction: column;
     }
     .section-pic-container {
-        max-width: 80%; 
+        max-width: 100%; 
         margin: 0 auto; 
     }
     .details-row {
@@ -479,6 +479,11 @@ header{
     }
     .section-text {
         font-size: 16px; 
+    }
+    .about-pic{
+        width: 925px;
+        /* height: auto; */
+        margin: auto;
     }
 }
 @media screen and (max-width: 670px) {
